@@ -1,5 +1,5 @@
-div {text-align: center;
-
+h1 {
+  text-align: center;
 }
 .squareLeft {
   height: 200px;
@@ -7,14 +7,14 @@ div {text-align: center;
   border-right: 6px solid black;
   border-bottom: 6px solid black;
   margin: 0;
-  display: inline-block;
+  float: left;
 }
 .squareMiddle {
   height: 200px;
   width: 200px;
   border-bottom: 6px solid black;
   margin: 0;
-  display: inline-block;
+  float: left;
 }
 .squareRight {
   height: 200px;
@@ -22,25 +22,25 @@ div {text-align: center;
   border-left: 6px solid black;
   border-bottom: 6px solid black;
   margin: 0;
-  display:inline-block;
+  float: left;
 }
 .squareBottomLeft {
   height: 200px;
   width: 200px;
   border-right: 6px solid black;
   margin: 0;
-  display: inline-block;
+  float: left;
 }
 .squareBottomMiddle {
   height: 200px;
   width: 200px;
   margin: 0;
-  display: inline-block;
+  float: left;
 }
 .squareBottomRight {
   height: 200px;
   width: 200px;
   border-left: 6px solid black;
   margin: 0;
-  display: inline-block;
+  float: left;
 }
